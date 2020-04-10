@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="css/all.css")
+    link(rel="stylesheet", href="css/style.css")
+    title JS Slider
+  body
+    div(class="slider-container")
+      div(id="slide-number", class="slide-number")
+      img(src="images/1.jpg", alt="")
+      img(src="images/2.jpg", alt="")
+      img(src="images/3.jpg", alt="")
+      img(src="images/4.jpg", alt="")
+
+    div(class="slider-controls")
+      span(id="prev", class="prev") 
+        i(class="fas fa-angle-left")
+      span(id="indicators", class="indicators")
+      span(id="next", class="next") 
+        i(class="fas fa-angle-right")
+    script(src="js/main.js")

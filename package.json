@@ -1,0 +1,23 @@
+{
+  "name": "js-slider",
+  "version": "1.0.0",
+  "description": "Slider with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass style.scss dist/css/style.css -w",
+    "pug": "pug index.pug --out dist/ -P -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezzdin-atef/JS-Slider.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezzdin-atef/JS-Slider/issues"
+  },
+  "homepage": "https://github.com/ezzdin-atef/JS-Slider#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
